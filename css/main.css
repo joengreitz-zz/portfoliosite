@@ -21,19 +21,43 @@ header {
 }
 
 
-.intro {
+.socials {
     order: 2;
 }
 
 main {
    	padding-right: 10%;
-    	padding-left: 10%;
+    padding-left: 10%;
 }
 
 
 .about {
-    	font-family: 'Crimson Text', serif;
-    	font-size: 16px; 
+    font-family: 'Crimson Text', serif;
+    font-size: 16px; 
+}
+
+.top-section {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.about-me-wrapper {
+    text-align: center;
+    display: block;
+    width: 50%;
+}
+
+button {
+    background-color: #6770b7;
+    color:#ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Karla", Helvetica, Arial, sans-serif;
+    width: 200px;
+    height: 42px;
+    cursor: pointer;
+    
 }
 
 body {
@@ -65,10 +89,11 @@ a:hover {
 
 h1 {
 	font-family: "Karla:700", Helvetica, Arial, sans-serif;
-    	color: #222;
+    color: #222;
 	font-size: 22px;
-    	font-weight: 700;
-    	text-align: left;
+    line-height: .5;
+    font-weight: 700;
+    text-align: left;
 }	
 
 h2 {
