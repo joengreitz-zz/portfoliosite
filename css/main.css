@@ -5,10 +5,24 @@ header {
     	background-color: #fff;
 }
 
-.title {
+.header-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
 	order: 1;
 	width: 80%;
 	text-align: right;
+}
+
+.title {
+    order: 1;
+    flex-grow: 3;
+}
+
+
+.intro {
+    order: 2;
 }
 
 main {
@@ -16,16 +30,6 @@ main {
     	padding-left: 10%;
 }
 
-.tagline {
-    	font-family: 'Crimson Text', serif;
-	font-size: 56px;
-	letter-spacing: 1.2px; 
-    	line-height: 2px;
-}
-
-.intro {
-    	font-family: 'Crimson Text', serif;
-}
 
 .about {
     	font-family: 'Crimson Text', serif;
@@ -62,38 +66,40 @@ a:hover {
 h1 {
 	font-family: "Karla:700", Helvetica, Arial, sans-serif;
     	color: #222;
-	font-size: 20px
+	font-size: 22px;
     	font-weight: 700;
-	line-height: 1;
-	letter-spacing: -1.7px;
-    	text-align: right;
+    	text-align: left;
 }	
 
 h2 {
-	font-family: "Karla:700", Helvetica, Arial, sans-serif;
-    	color: #222;
-    	text-transform: uppercase;
-	font-size: 14px;
-	letter-spacing: 4px;
-    	text-align: right;
+	font-family: "Karla", Helvetica, Arial, sans-serif;
+    color: #222;
+	font-size: 16px;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 4px;
 }
 
 h3 {
 	font-family: "Karla:700", Helvetica, Arial, sans-serif;
-    	text-transform: uppercase;
-	font-size: 14px;
+    color: #222;
+    text-transform: uppercase;
+	font-size: 16px;
 	letter-spacing: 4px;
-}
+} 
 
 h4 {
-    	font-family: "Crimson Text", Helvetica, Arial, sans-serif;
-    	color: #2d3c49;
-	text-align: center;
-	font-size: 16px;
+    font-family: "Karla: 700", Helvetica, Arial, sans-serif;
+    color: #2d3c49;
+    font-size: 16px;
+    text-align: center;
 }
 
-hr {
-	border: solid 1px #222;
+p {
+    font-family: "Karla", Helvetica, Arial, sans-serif;
+    color: #222;
+	font-size: 16px;
+    text-align: center;
 }
 
 img {
