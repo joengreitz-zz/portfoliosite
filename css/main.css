@@ -42,7 +42,7 @@ main {
     flex-grow:2;
 }
 
-.social-wrapper {
+.nav-menu {
     /* Display and Box Model */
     order: 2;
 }
@@ -63,10 +63,27 @@ main {
     padding-bottom: 10%;
 }
 
+.bottom-section {
+    /* Display and Box Model */
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+    align-items: center;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
 .hero-wrapper {
     /* Display and Box Model */
     padding-right: 5%;
     padding-left: 5%;
+}
+
+.social-wrapper {
+    /* Display and Box Model */
+    order: 1;
 }
 
 .featured-work {
@@ -152,6 +169,13 @@ footer {
 	margin: 0 auto;
 	max-width: 1000px;
 	padding: 30px, 0px;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .header-link {
