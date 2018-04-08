@@ -47,14 +47,6 @@ main {
     order: 2;
 }
 
-.hero {
-    /* Display and Box Model */
-    padding-top: 5%;
-
-    /* Text */
-    text-align: center;
-}
-
 .about {
     /* Display and Box Model */
     padding-top: 5%;
@@ -67,13 +59,8 @@ main {
     /* Display and Box Model */
     padding-right: 10%;
     padding-left: 10%;
-}
-
-.about-content-section {
-    padding-right: 20%;
-    padding-left: 20%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 .bottom-section {
@@ -92,8 +79,6 @@ main {
     /* Display and Box Model */
     padding-right: 5%;
     padding-left: 5%;
-    padding-top: 10%;
-    padding-bottom: 10%;
 }
 
 .social-wrapper {
@@ -167,26 +152,11 @@ h2 {
     text-decoration: none;
 }
 
-p, ul {
+p {
     font-family: 'Miriam Libre', sans-serif;
     color: #7b808c;
 	font-size: 1rem;
     text-decoration: none;
-    line-height: 1.25;
-}
-
-.profile-photo-section {
-    display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-    align-items: center;
-}
-
-.profile-photo {
-    order: 1;
-    max-width: 80%;
-    padding-left: 25%; 
-    padding-right: 25%;
 }
 
 img {
@@ -216,10 +186,6 @@ hr {
     text-decoration: none;
 }
 
-a:hover {
-    color: #4AB471;
-}
-
 .hero-link {
     /* Text */
     font-family: 'Miriam Libre', sans-serif;
@@ -229,17 +195,6 @@ a:hover {
     /* Color */
     color: #7b808c;	
 }
-
-.about-link {
-    /* Text */
-    font-family: 'Miriam Libre', sans-serif;
-    font-size: 1rem;
-    text-decoration: none;
-    
-    /* Color */
-    color: #4AB471;	
-}
-
 
 .social-image {
    	 width: 30px;
