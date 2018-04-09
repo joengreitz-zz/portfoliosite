@@ -18,11 +18,11 @@
 	<meta charset="utf-8">
 	<meta content="Jo Engreitz is a product manager, UX designer and startup builder based in NYC." name="description">
 	<meta content="Jo Engreitz" name="author">
-    <meta name="twitter:title" content="Jo Engreitz | Product Manager"
+    <meta name="twitter:title" content="Jo Engreitz | Product Manager">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="../css/main.css" rel="stylesheet">
-	<link href="main.css" media="screen and (min-width:1000px)" rel="stylesheet">
-	<link href="main.css" media="screen and (min-width:640px)" rel="stylesheet">
+	<link href="../css/main.css" media="screen and (min-width:1000px)" rel="stylesheet">
+	<link href="../css/main.css" media="screen and (min-width:600px)" rel="stylesheet">
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 	<link href="https://fonts.googleapis.com/css?family=Miriam+Libre|Muli" rel="stylesheet">
 </head>
@@ -31,11 +31,18 @@
         <div class="nav-bar">
             <div class="header-section">
                 <span class="title">
-             <a href="www.josephineengreitz.com" class="header-link">Jo Engreitz</a>
+                    <a href="/index.html" class="header-link">Jo Engreitz</a>
+                </span>
+                <span class="nav-menu">
+                    <p>
+                    <a href="/index.html" class="header-link"> Work  /</a>
+                    <a href="/about.html" class="header-link">About  /</a>
+                    <a href="mailto:jo.engreitz@gmail.com?Subject=Hello%20again" target="_top" class="header-link"> Contact</a>
+                    </p>
                 </span>
             </div>
         </div>
-	</header>    
+	</header>
 	<!--
             A little bit about Josephine Engreitz
         -->
@@ -43,8 +50,8 @@
         <section class="about">
             <div class="top-section">
                 <div class="hero-wrapper">
-                    <h1>Hi, I'm Jo. I'm a startup product manager with a knack for blending qual + quant.</h1>
-                    <a href="" class="hero-link">More about me</a>
+                    <h1>Hi, I'm Jo. I'm a startup product manager with love for strong UX and a knack for blending qual + quant.</h1>
+                    <a href="/about.html" class="hero-link">More about me</a>
                 </div>
             </div>
 	   </section>
@@ -53,7 +60,9 @@
         -->
 		<section class="featured-work">
             <div class="middle-section">                    
-                <p>Featured Work:</p>
+                <div class="project-title-container">
+                    <p>Featured Work:</p>
+                </div>
                 <div class="project-container">
                     <div class="card">
                         <a class="no-underline" href="https://medium.com/@joengreitz/growth-is-a-buzzword-in-the-startup-world-for-a-good-reason-1e5dba1fbbec" target="_blank">
@@ -66,28 +75,7 @@
                             </div>
                         </a>
                     </div>
-                     <div class="card">
-                        <a class="no-underline" href="https://medium.com/@engreitzjo/seatgeek-landing-page-ux-analysis-eb80e987e9ca" target="_blank">
-                            <div class="card-figure">
-                                <img alt="Opportunity Equation" src="../img/project-thumbnails/seatgeek.png">
-                            </div> 
-                            <div class="card-details">
-                                <h2>SeatGeek UX Analysis</h2>
-                                <p class="card-paragraph">A high-level analsysis of SeatGeek's landing page & identification of opportunities to optimize</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="card">
-                        <a class="no-underline" href="https://medium.com/@engreitzjo/sql-for-pms-a-crash-course-3d5382802d54" target="_blank">
-                            <div class="card-figure">
-                                <img alt="SQL" src="../img/project-thumbnails/sql.png">
-                            </div> 
-                            <div class="card-details">
-                                <h2>SQL for PMs</h2>
-                                <p class="card-paragraph">A SQL basics crash course for product managers</p>
-                            </div>
-                        </a>
-                    </div>
+                    
                     <div class="card">
                         <a class="no-underline" target="_blank">
                             <div class="card-figure">
@@ -99,6 +87,31 @@
                             </div>
                         </a>
                     </div>
+
+                    <div class="card">
+                        <a class="no-underline" href="https://medium.com/@engreitzjo/seatgeek-landing-page-ux-analysis-eb80e987e9ca" target="_blank">
+                            <div class="card-figure">
+                                <img alt="Opportunity Equation" src="../img/project-thumbnails/seatgeek.png">
+                            </div> 
+                            <div class="card-details">
+                                <h2>SeatGeek UX Analysis</h2>
+                                <p class="card-paragraph">A high-level analsysis of SeatGeek's landing page & identification of opportunities to optimize</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="card">
+                        <a class="no-underline" href="https://medium.com/@engreitzjo/sql-for-pms-a-crash-course-3d5382802d54" target="_blank">
+                            <div class="card-figure">
+                                <img alt="SQL" src="../img/project-thumbnails/sql.png">
+                            </div> 
+                            <div class="card-details">
+                                <h2>SQL for PMs</h2>
+                                <p class="card-paragraph">SQL crash course designed to help product managers master basic syntax</p>
+                            </div>
+                        </a>
+                    </div>
+                    
                     <div class="card">
                         <a class="no-underline" href="https://medium.com/@joengreitz/unpacking-amz-bkh-jpm-part-1-6caba15e667b" target="_blank">
                             <div class="card-figure">
@@ -117,7 +130,7 @@
                             </div> 
                             <div class="card-details">
                                 <h2>PM Survival Kit</h2>
-                                <p class="card-paragraph">A curated mini-library of free high-impact product resources help new PMs get up to speed</p>
+                                <p class="card-paragraph">Curated mini-library of free high-impact product resources help new PMs get up to speed</p>
                             </div>
                         </a>
                     </div>
